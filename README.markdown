@@ -6,3 +6,5 @@ This is the second application from
 This is the work from Chapter 3 onwards.
 
 This is David Rankin's attempt at the tutorial (don't laugh too much)
+
+Check out my progress at http://rails-tutorial-first-app.heroku.com/
