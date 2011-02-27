@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #893BD8;
+  background: #202020;
 }
 
 header {
@@ -15,31 +15,32 @@ header img {
   background: #fff;
 }
 
+p {
+	color:#D7D7D7;
+}
+
 section {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
-  background: #fff;
+  background: #343434;
 }
 
 section h1 {
   font-size: 200%;
+  color:#fff;
 }
 
 /* Links */
 
 a {
-  color: #09c;
+  color: #6E3A7D;
   text-decoration: none;
 }
 
 a:hover {
-  color: #069;
+  color: #D596E9;
   text-decoration: underline;
-}
-
-a:visited {
-  color: #069;
 }
 
 /* Navigation */
@@ -49,7 +50,7 @@ nav {
 }
 
 nav {
-  background-color: white;
+  background-color: #242424;
   padding: 0 0.7em;
   white-space: nowrap;
 }
@@ -68,14 +69,16 @@ nav ul li {
 nav ul li a {
   padding: 0 5px;
   font-weight: bold;
+  color:#BABE5E;
 }
 
 nav ul li a:visited {
-  color: #09c;
+  color: #BABE5E;
 }
 
 nav ul li a:hover {
   text-decoration: underline;
+  color:#FFF;
 }
 
 /* Sign up button */
