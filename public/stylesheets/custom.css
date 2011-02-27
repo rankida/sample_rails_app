@@ -12,7 +12,6 @@ header {
 
 header img {
   padding: 1em;
-  background: #fff;
 }
 
 p {
@@ -50,7 +49,7 @@ nav {
 }
 
 nav {
-  background-color: #242424;
+  background-color: #343434;
   padding: 0 0.7em;
   white-space: nowrap;
 }
@@ -89,11 +88,21 @@ a.signup_button {
   display: block;
   text-align: center;
   width: 290px;
-  color: #fff;
-  background: #006400;
+  color: #6E3A7D;
+  background: #242424;
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
+  border-style:solid;
+  border-width:3px;
+  border-color:#6E3A7D;
+}
+
+a.signup_button:hover {
+	color: #D596E9;
+	background: #6E3A7D;
+	border-color:#242424;
+	
 }
 
 /* Round corners */
