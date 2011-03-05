@@ -8,4 +8,9 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
+  
+  # Return the logo image with link
+  def logo
+    image_tag("Rankida.gif", :alt => "Rankida.com", :class => "round")
+  end
 end
