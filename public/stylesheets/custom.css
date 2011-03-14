@@ -1,9 +1,11 @@
 .container {
-  width: 710px;
+  width: 788px;
 }
 
 body {
   background: #202020;
+  background-image:url(/images/bg_gradient.png);
+  background-repeat:repeat-x;
 }
 
 header {
@@ -18,16 +20,23 @@ p {
 	color:#D7D7D7;
 }
 
+#main {
+  border-right: 2px solid #222;
+  border-bottom: 2px solid #222;
+}
+
 section {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
   background: #343434;
+  border: 2px solid #999;
 }
 
 section h1 {
   font-size: 200%;
   color:#fff;
+  text-shadow: 1px 1px 1px #d2d2d2;
 }
 
 /* Links */
@@ -102,7 +111,6 @@ a.signup_button:hover {
 	color: #D596E9;
 	background: #6E3A7D;
 	border-color:#242424;
-	
 }
 
 /* Round corners */
@@ -116,11 +124,15 @@ a.signup_button:hover {
 footer {
   text-align: center;
   margin-top: 10px;
-  width: 710px;
   margin-left: auto;
   margin-right: auto;
 }
 
 footer nav {
   float: none;
+}
+
+/* Debug styling */
+.debug_dump {
+  color: #343434;
 }
